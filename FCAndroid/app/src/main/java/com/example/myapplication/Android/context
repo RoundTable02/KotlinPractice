@@ -1,0 +1,9 @@
+
+
+Context
+ 역할 > ActivityManagerService에 접근하게 해주는 역할
+ 안드로이드는 이미 많은 부분들이 만들어져 있다
+
+ 주변 정보를 받는 역할
+ > activity의 context >> activity의 주변 정보를 받는다
+ > application의 context >> Application의 주변 정보를 받는다

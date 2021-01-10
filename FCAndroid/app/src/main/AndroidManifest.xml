@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PermissionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RetrofitActivity">
+
+        </activity>
+        <activity android:name=".NetworkActivity"></activity>
+        <activity android:name=".AsyncActivity" />
+        <activity android:name=".RealmActivity" />
+        <activity android:name=".SharedPreference" />
+        <activity android:name=".TabPager2Activity" />
+        <activity android:name=".TabPagerActivity" />
+        <activity android:name=".callingRecycler" />
+        <activity android:name=".RecyclerViewActivity" />
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".PhoneBookDetailActivity" />
+        <activity android:name=".callingBook" />
+        <activity android:name=".addViewActivity" />
+        <activity android:name=".LibraryActivity" />
+        <activity android:name=".ThreadActivity" />
+        <activity android:name=".Context" />
+        <activity android:name=".resource02" />
+        <activity android:name=".nullSafety" />
+        <activity android:name=".Fragmentactivity" />
+        <activity android:name=".test01" />
+        <activity android:name=".Intent2" />
+        <activity android:name=".Intent1" />
+        <activity android:name=".calculator" />
+        <activity android:name=".listener" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
